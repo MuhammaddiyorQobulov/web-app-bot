@@ -11,7 +11,7 @@ bot.on("message", async (msg) => {
       chatId,
       `Assalom alekum ${msg.from.first_name}, 
 Sizga murojat qilishlari uchun 
-iltmos telefon raqamingizni jo'nating.`,
+iltmos telefon raqamingizni jo'nating`,
       {
         reply_markup: {
           keyboard: [
