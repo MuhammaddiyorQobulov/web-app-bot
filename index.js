@@ -5,7 +5,6 @@ const bot = new TelegramBot(TOKEN, { polling: true });
 bot.on("message", async (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
-  console.log(msg);
   if (text === "/start") {
     bot.sendMessage(
       chatId,
